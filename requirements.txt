@@ -1,1 +1,2 @@
-
+googlesearch-python
+g4f[all]
