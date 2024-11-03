@@ -8,3 +8,6 @@ from user.usercheck import find_username
 from cfg import title, version
 from colorama import style, fore
 from time import sleep
+
+print({Fore.Blue}str(title){Style.RESET_ALL})
+print(version)
