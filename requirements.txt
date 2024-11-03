@@ -2,3 +2,4 @@ googlesearch-python
 g4f[all]
 requests
 phonenumbers
+colorama
