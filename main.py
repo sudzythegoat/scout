@@ -11,3 +11,13 @@ from time import sleep
 
 print({Fore.Blue}str(title){Style.RESET_ALL})
 print(version)
+while True:
+    option = input("[>] ")
+    if option == 1:
+        m_ip = input("Enter IP:\n[>] ")
+        print(ipinfo(m_ip))
+    elif option == 2:
+        a_ip = input("Enter IP:\n[>] ")
+        print(ip_to_address(a_ip))
+    elif option == 3:
+        
